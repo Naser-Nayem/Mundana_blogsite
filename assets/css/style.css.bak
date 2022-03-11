@@ -1,0 +1,425 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+/*common selector start*/
+.container-full{
+	width: 100%;
+	/*border: 2px solid red;*/
+}
+.container-inner{
+	width: 80%;
+	/*border: 2px solid green;*/
+	margin: 0px auto;
+}
+.logo{
+	width: 10%;
+	border: 1px solid blue;
+}
+.nav{
+	width: 60%;
+	border: 1px solid blue;
+}
+.icon{
+	width: 30%;
+	border: 1px solid blue;
+}
+.banner-text{
+	width: 50%;
+	/*border: 1px solid blue;*/
+}
+.banner-img{
+	width: 50%;
+	/*border: 1px solid yellow;*/
+}
+.image-des{
+	width: 50%;
+	/*border: 1px solid blue;*/
+}
+.image{
+	width: 15%;
+	/*border: 1px solid blue;*/
+}
+.
+.des{
+	width: 35%;
+	border: 1px solid blue;
+}
+.all-stories{
+	width: 70%;
+	/*border: 1px solid #4c4c4c;*/
+}
+.popular{
+	width: 30%;
+	/*border: 1px solid #4c4c4c;*/
+}
+.sec-3-text{
+	width: 50%;
+	/*border: 1px solid #4c4c4c;*/
+}
+.sec-3-img{
+	width: 20%;
+	/*border: 1px solid #4c4c4c;*/
+}
+.sec-3-side-font{
+	width: 10%;
+	/*border: 1px solid #4c4c4c;*/
+}
+.sec-3-side-font-main{
+	width: 20%;
+	/*border: 1px solid #4c4c4c;*/
+}
+.footer-left{
+	width: 50%;
+	/*border: 1px solid #4c4c4c;*/
+}
+.footer-right{
+	width: 50%;
+	/*border: 1px solid #4c4c4c;*/
+}
+.float-left{
+	float: left;
+}
+.clear-both{
+	clear: both;
+}
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+.text-center{
+	text-align: center;
+}
+.height{
+	height: 450px;
+}
+
+/*font start*/
+/*header font start*/
+.logo-font{
+	font-size: 18px;
+	font-family: "Playfair Display", "Segoe UI", "Helvetica Neue", Arial;
+	font-weight: 700;
+	line-height: 32px
+}
+.nav-font{
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-size: 14px;
+}
+/*header font start*/
+
+/*banner font start*/
+.banner-h1{
+	font-family: "Playfair Display", "Segoe UI", "Helvetica Neue", Arial;
+	font-size: 40px;
+	line-height: 48px;
+	font-weight: 700;
+}
+.banner-p{
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-size: 14px;
+	line-height: 25.6px;
+}
+.banner-button{
+	font-family : "Source Sans Pro";
+	font-size: 16px;
+	line-height: 25.6px;
+	border: 1px solid black;
+}
+/*banner font end*/
+/*section 1 part start*/
+.section-1-h2{
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-size: 22px;
+	line-height: 28.8px;
+	font-weight: 700;
+}
+.section-1-p{
+		
+font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+font-size: 15px;
+line-height: 22px;
+}
+
+/*section 1 part end*/
+/*section 2 start*/
+.section-2-font{		
+font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+}
+/*section 2 end*/
+/*section 3 start*/
+.font-h2{
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-size: 24px;
+	line-height: 28.8px;
+	font-weight: 700;
+}
+.font-p{
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-size: 16px;
+}
+.font-large{
+	font-size: 32px;
+}
+.f-p{
+	font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+	font-size: 14px;
+	font-weight: 700;
+}
+/*section 3 end*/
+/*footer font start*/
+.footer-strong{
+	font-family: "Playfair Display", "Segoe UI", "Helvetica Neue", Arial;
+	font-size: 20px;
+	font-weight: 700;
+}
+/*footer font end*/
+/*font end*/
+.border-green{
+	border: 1px solid #369c2f;
+	border-radius: 5px;
+}
+.br-black{
+	border-radius: 5px;
+}
+.doc-border{
+	border: 1px solid  #7832e2;
+	border-radius: 5px;
+}
+.text-decoration{
+	text-decoration: none;
+}
+.list-style{
+	list-style: none;
+}
+.d-inline-block{
+		display: inline-block;
+}
+.opacity{
+	opacity: 0.9;
+}
+.w-100{
+	width: 100%;
+}
+.w-70{
+	width: 90%;
+}
+.w-30{
+	width: 30%;
+}
+.d-block{
+	display: block;
+}
+
+/*margin part start*/
+.m-o{
+	margin: 0px;
+}
+.m-1{
+	margin: 10px;
+}
+.m-2{
+	margin: 20px;
+}
+.m-r{
+	margin-right: 40px;
+}
+.mt-1{
+	margin: 18px 0px 0px 0px;
+}
+.mt-2{
+	margin: 10px 0px 0px 0px;
+}
+.mt-3{
+	margin: 40px 0px 0px 0px;
+}
+.mt-4{
+	margin: 30px 0px 0px 0px;
+}
+.m-3{
+	margin: 15px 0px 0px 245px;
+}
+.mb-1{
+	margin: 0px 0px 10px 0px;
+}
+.mb-2{
+	margin: 0px 0px 30px 0px;
+}
+.mb-3{
+	margin: 0px 0px 160px 0px;
+}
+/*margin part end*/
+
+/*padding part start*/
+.p-o{
+	padding: 0px;
+}
+.p-r{
+	padding: 0px 21px 0px 0px;
+}
+.p-l{
+	padding-left: 0;
+}
+.p-t{
+	padding-top: 10px;
+}
+.pt-1{
+	padding-top: 15px;
+}
+
+.pt-3{
+	padding-top: 5px;
+}
+.pt-2{
+	padding: 25px 0px 0px 0px;
+}
+.pt-4{
+	padding: 6px 0px 0px 0px;
+}
+.pt-5{
+	padding: 35px 0px 0px 0px;
+}
+.pt-6{
+	padding: 30px 0px 0px 0px;
+}
+.p-2{
+	padding: 10px;
+}
+.p-3{
+	padding: 20px;
+}
+.p-6{
+	padding: 50px 45px;
+}
+.p-4{
+	padding: 12px 14px;
+}
+.p-5{
+	padding: 10px 20px;
+}
+.pl-1{
+	padding: 0px 0px 0px 30px;
+}
+.pr-1{
+	padding: 0px 50px 0px 0px;
+}
+.p-7{
+	padding: 2px 5px;
+}
+/*padding part end*/
+
+/*color start*/
+.bg-white{
+	background-color: #ffffff;
+}
+.bg-nav{
+	background-color: #e8f3ec;
+}
+.bg-black{
+	background-color: #000000;
+}
+.bg-blue{
+	background-color: #7832e2;
+}
+.color-white{
+	color: #ffffff;
+}
+.color-off-white{
+	color: #f5f5f5;
+}
+.color-black{
+	color: black;
+}
+.color-dark-gray{
+	color: #4c4c4c;
+}
+.color-off-white{
+	color: #949494;
+}
+.color-light-green{
+	color: #369c2f;
+}
+.color-green{
+	color: #2f9e44;
+}
+.color-footer{
+	color: #571cc5;
+}
+
+/*color end*/
+/*common selector end*/
+
+/*header part start*/
+.header{}
+.header-logo{}
+.header-nav{}
+.header-nav li a{
+	transition: 0.5s;
+}
+.header-nav li a:hover{
+	color: #000000;
+	
+}
+.header-icon{}
+.header-icon button:hover{
+	background-color: #03A87C;
+	color: #ffffff;
+	cursor: pointer;
+}
+/*header part end*/
+/*banner part start*/
+.banner-text a{
+	opacity: 0.8;
+	transition: .3s;
+}
+.banner-text a:hover{
+	opacity: 1;
+}
+/*banner part end*/
+/*section 1 start*/
+.image-des a{
+	transition: 0.5s;
+}
+.image-des a:hover{
+	color: #4bad64;
+}
+.des a{
+	transition: 0.5s;
+}
+.des a:hover{
+	color: #4bad64;
+	text-decoration: underline;
+}
+/*section 1 end*/
+
+/*section 3 start*/
+.sec-3-text a{
+	transition: 0.5s;
+}
+.sec-3-text a:hover{
+	color: #4bad64;
+	text-decoration: underline;
+}
+.sec-3-side-font-main a{
+	transition: 0.5s;
+}
+.sec-3-side-font-main a:hover{
+	color: #4bad64;
+	text-decoration: underline;
+}
+.footer-right a{
+	transition: 0.5s;
+}
+.footer-right a:hover{
+	text-decoration: underline;
+}
+/*section 3 end*/
+
